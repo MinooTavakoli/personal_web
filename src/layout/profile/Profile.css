@@ -1,0 +1,232 @@
+.profile-component {
+  position: relative;
+  z-index: 0;
+}
+.card-started {
+  position: absolute;
+  float: left;
+  width: 95%;
+  height: 95%;
+  z-index: 0;
+}
+
+.card-started:after {
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(8, 86, 193, 0.4) 0%,
+    rgba(8, 86, 193, 0.01) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(8, 86, 193, 0.4) 0%,
+    rgba(8, 86, 193, 0.01) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(8, 86, 193, 0.4) 0%,
+    rgba(8, 86, 193, 0.01) 100%
+  );
+}
+
+.card-started:after {
+  content: "";
+  position: absolute;
+  left: -13px;
+  top: -3px;
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(8, 86, 193, 0.4) 0%,
+    rgba(8, 86, 193, 0.01) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(8, 86, 193, 0.4) 0%,
+    rgba(8, 86, 193, 0.01) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(8, 86, 193, 0.4) 0%,
+    rgba(8, 86, 193, 0.01) 100%
+  );
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+}
+
+.profile-slide {
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-info-wrapper {
+  min-height: 430px;
+}
+
+.profile-info-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.profile-slide:before {
+  content: "";
+  position: absolute;
+  left: -25%;
+  bottom: -198px;
+  width: 700px;
+  height: 200px;
+  background: #fff;
+  transform: rotate(12deg);
+  -webkit-transform: rotate(12deg);
+  -moz-transform: rotate(12deg);
+  -o-transform: rotate(12deg);
+}
+
+.profile-slide:after {
+  content: "";
+  position: absolute;
+  right: -6%;
+  bottom: -198px;
+  width: 700px;
+  height: 200px;
+  background: #fff;
+  transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+}
+
+.profile-slide:before {
+  left: -4%;
+  bottom: 59%;
+  width: 60%;
+  height: 8%;
+}
+
+.profile-slide:after {
+  bottom: 59%;
+  width: 60%;
+  height: 8%;
+  right: -4%;
+}
+
+.profile-container-wrapper {
+  width: 480px;
+  height: 280px;
+  background-color: #83d5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.profile-image-wrapper {
+  width: 120px;
+  height: 120px;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.title-name {
+  font-size: 32px;
+  margin: 60px 0 0 0;
+}
+
+.title-job {
+  font-size: 20px;
+  padding: 16px 0;
+}
+
+.profile-info-description {
+  text-align: justify;
+  font-size: 16px;
+  max-width: 440px;
+  color: #7c7c7c;
+  padding: 16px 0;
+}
+
+.social-icon-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  padding: 24px 0;
+}
+
+.social-icon-linkedin-wrapper {
+  width: 38px;
+  height: 38px;
+  background-color: #1565c0;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgb(0 0 0 / 46%);
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon-linkedin-wrapper:hover {
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  transition: 0.3s;
+}
+
+.social-icon-linkedin {
+  width: 60%;
+}
+
+.social-icon-github-wrapper {
+  width: 38px;
+  height: 38px;
+  background-color: #f44336;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgb(0 0 0 / 46%);
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon-github-wrapper:hover {
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  transition: 0.3s;
+}
+
+.social-icon-github {
+  width: 60%;
+}
+
+.social-icon-telegram-wrapper {
+  width: 38px;
+  height: 38px;
+  background-color: #ef6c00;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgb(0 0 0 / 46%);
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon-telegram-wrapper:hover {
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  transition: 0.3s;
+}
+
+.social-icon-telegram {
+  width: 60%;
+}
