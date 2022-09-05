@@ -1,0 +1,7 @@
+.d-flex{display: flex;flex-wrap: wrap; position: relative; align-items: stretch;}
+.justify-right{justify-content: right}
+.justify-left{justify-content: left}
+.justify-center{justify-content: center}
+.align-right{align-items: flex-start}
+.align-left{align-items: flex-end}
+.align-center{align-items: center}
