@@ -4,6 +4,22 @@ body {
   font-family: Poppins;
 }
 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
 .custom-container-head {
   height: 480px;
   position: absolute;
@@ -26,5 +42,6 @@ body {
 .custom-container-page {
   position: absolute;
   top: 84px;
-  right: 52px;
+  right: 160px;
+  width: 56%;
 }
