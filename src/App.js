@@ -2,9 +2,9 @@ import React from "react";
 import Header from "./layout/headers/Header";
 import Layout from "./layout/Layout";
 import Profile from "./layout/profile/Profile";
-import Page from "./layout/page/Page";
-import "./App.css";
+import Pages from "./pages/Pages";
 import { Col, Row } from "./components/grid";
+import "./App.css";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
 
         <Col md="14">
           <div className="custom-container-page">
-            <Page />
+            <Pages />
           </div>
         </Col>
       </Row>

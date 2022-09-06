@@ -15,7 +15,7 @@ function Profile() {
         <Row>
           <Col>
             <div className="profile-component">
-              <div class="profile-slide">
+              <div className="profile-slide">
                 <div className="profile-container-wrapper">
                   <div className="profile-image-wrapper">
                     <img
@@ -28,16 +28,12 @@ function Profile() {
               </div>
               <div className="profile-info-wrapper">
                 <div className="profile-info-details">
-                  <div className="title-name">PEDRAM AGHAII</div>
+                  <div className="title-name">Pedram Aghaei</div>
                   <div className="title-job">Infrastructure Team Lead</div>
                   <div dir="ltr" className="profile-info-description">
-                    Hello! I’m Pedam Aghaii. Senior Web Developer with over 13
-                    years of experience specializing in front end development.
-                    Experienced with all stages of the development cycle for
-                    dynamic web projects.Having an in-depth knowledge including
-                    advanced HTML5, CSS, CSS3, SASS, LESS, JSON, XML, Java,
-                    JavaScript, JQuery, Angular JS. Strong background in
-                    management and leadership.
+                    Infrustructure Team Lead <br />
+                    Senior Systems and VMware Engnieer <br />
+                    IT Solution Architect
                   </div>
                   <div className="social-icon-wrapper">
                     <div className="social-icon-linkedin-wrapper">
