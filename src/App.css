@@ -24,7 +24,7 @@ body {
   height: 480px;
   position: absolute;
   top: 84px;
-  left: 200px;
+  left: 100px;
   z-index: 2;
   display: flex;
   justify-content: center;
@@ -33,7 +33,7 @@ body {
 .custom-container-profile {
   position: absolute;
   top: 70px;
-  left: 294px;
+  left: 194px;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -42,6 +42,6 @@ body {
 .custom-container-page {
   position: absolute;
   top: 84px;
-  right: 160px;
-  width: 56%;
+  left: 686px;
+  /* width: 51%; */
 }

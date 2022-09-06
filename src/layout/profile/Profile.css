@@ -104,13 +104,13 @@
 
 .profile-slide:before {
   left: -4%;
-  bottom: 59%;
+  bottom: 57%;
   width: 60%;
   height: 8%;
 }
 
 .profile-slide:after {
-  bottom: 59%;
+  bottom: 57%;
   width: 60%;
   height: 8%;
   right: -4%;
@@ -127,11 +127,11 @@
 }
 
 .profile-image-wrapper {
-  width: 120px;
-  height: 120px;
-  padding: 4px;
+  width: 200px;
+  height: 200px;
+  padding: 2px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: rgb(230, 230, 230);
 }
 
 .profile-image {
@@ -151,7 +151,7 @@
 }
 
 .profile-info-description {
-  text-align: justify;
+  text-align: center;
   font-size: 16px;
   max-width: 440px;
   color: #7c7c7c;

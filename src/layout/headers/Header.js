@@ -17,7 +17,7 @@ function Header() {
             <a href="#about-card">
               <img
                 src={aboutIcon}
-                alt="about-me-pedram-aghaii"
+                alt="about-me-pedram-aghaei"
                 className="person-icon"
               />
               <div className="link">ABOUT</div>
@@ -27,7 +27,7 @@ function Header() {
             <a href="#resume-card">
               <img
                 src={resumeIcon}
-                alt="resume-me-pedram-aghaii"
+                alt="resume-me-pedram-aghaei"
                 className="person-icon"
               />
               <div className="link">RESUME</div>
@@ -37,7 +37,7 @@ function Header() {
             <a href="#work-card">
               <img
                 src={workIcon}
-                alt="work-me-pedram-aghaii"
+                alt="work-me-pedram-aghaei"
                 className="person-icon"
               />
               <div className="link">WORKS</div>
@@ -47,7 +47,7 @@ function Header() {
             <a href="#blog-card">
               <img
                 src={blogIcon}
-                alt="blog-me-pedram-aghaii"
+                alt="blog-me-pedram-aghaei"
                 className="person-icon"
               />
               <div className="link">BLOG</div>
@@ -57,7 +57,7 @@ function Header() {
             <a href="#contact-card">
               <img
                 src={contactIcon}
-                alt="contact-me-pedram-aghaii"
+                alt="contact-me-pedram-aghaei"
                 className="person-icon"
               />
               <div className="link">CONTACT</div>
