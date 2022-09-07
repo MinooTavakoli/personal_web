@@ -19,10 +19,10 @@ function About() {
           <div className="col col-d-6 col-t-6 col-m-12 border-line-v ltr-section">
             <div className="text-box">
               <p>
-                I am Ryan Adlard, web designer from USA, California. I have rich
-                experience in web site design and building and customization,
-                also I am good at wordpress. I love to talk with you about our
-                unique.
+                I am Pedram Aghaei, Infrastructure Team Lead from IRAN, Tehran.
+                I have rich experience in Network and building and
+                customization, also I am good at Datacenter. I love to talk with
+                you about our unique.
               </p>
             </div>
           </div>
@@ -70,7 +70,7 @@ function About() {
                 />
               </div>
               <div className="name">
-                <span>Web Development </span>
+                <span>Operation Systems </span>
               </div>
               <div className="desc-service-wrapper">
                 <div className="desc-service">
@@ -92,7 +92,7 @@ function About() {
                 />
               </div>
               <div className="name">
-                <span>Music Writing </span>
+                <span>Linux Systems </span>
               </div>
               <div className="desc-service-wrapper">
                 <div className="desc-service">
@@ -114,7 +114,7 @@ function About() {
                 />
               </div>
               <div className="name">
-                <span>Advetising </span>
+                <span>IT Solution Architect</span>
               </div>
               <div className="desc-service-wrapper">
                 <div className="desc-service">
@@ -136,7 +136,7 @@ function About() {
                 />
               </div>
               <div className="name">
-                <span>Game Development </span>
+                <span>VMware Engnieer</span>
               </div>
               <div className="desc-service-wrapper">
                 <div className="desc-service">
