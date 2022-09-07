@@ -32,7 +32,7 @@ function Profile() {
                   <div className="title-job">Infrastructure Team Lead</div>
                   <div dir="ltr" className="profile-info-description">
                     Infrustructure Team Lead <br />
-                    Senior Systems and VMware Engnieer <br />
+                    Senior Systems and VMware Engineer <br />
                     IT Solution Architect
                   </div>
                   <div className="social-icon-wrapper">

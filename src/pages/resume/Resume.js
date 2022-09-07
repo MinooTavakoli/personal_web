@@ -8,12 +8,13 @@ import codeIcon from "../../assets/icons/coding-1.png";
 import skillIcon from "../../assets/icons/skills-1.png";
 import Carousel from "../../components/carousel/Carousel";
 import images from "../../components/carousel/Images";
+import { Card } from "../../components/card";
 
 import "./Resume.css";
 
 function Resume() {
   return (
-    <div className="card-inner animated active" id="about-card">
+    <div dir="ltr" className="card-inner animated active" id="about-card">
       <div className="card-wrap"></div>
       <div className="content services">
         {/* <div className="line-center-service" /> */}
@@ -52,12 +53,11 @@ function Resume() {
                 <div
                   style={{
                     padding: "2px 8px",
-                    margin: "16px 0 4px 0",
+                    margin: "16px 16px 4px 0px",
                     borderRadius: "6px",
                     border: "1px solid #0856c1",
                     color: "#0856c1",
                     height: "26px",
-                    width: "34%",
                     fontSize: "15px",
                   }}
                 >
@@ -106,12 +106,11 @@ function Resume() {
                 <div
                   style={{
                     padding: "2px 8px",
-                    margin: "16px 0 4px 0",
+                    margin: "16px 16px 4px 0px",
                     borderRadius: "6px",
                     border: "1px solid #eee",
                     color: "#ccc",
                     height: "26px",
-                    width: "34%",
                     fontSize: "15px",
                   }}
                   className="btn-customer"
@@ -133,12 +132,11 @@ function Resume() {
                 <div
                   style={{
                     padding: "2px 8px",
-                    margin: "16px 0 4px 0",
+                    margin: "16px 16px 4px 0px",
                     borderRadius: "6px",
                     border: "1px solid #eee",
                     color: "#ccc",
                     height: "26px",
-                    width: "34%",
                     fontSize: "15px",
                   }}
                   className="btn-customer"
@@ -163,12 +161,11 @@ function Resume() {
                 <div
                   style={{
                     padding: "2px 8px",
-                    margin: "16px 0 4px 0",
+                    margin: "16px 16px 4px 0px",
                     borderRadius: "6px",
                     border: "1px solid #eee",
                     color: "#ccc",
                     height: "26px",
-                    width: "34%",
                     fontSize: "15px",
                   }}
                   className="btn-customer"
@@ -209,12 +206,11 @@ function Resume() {
                 <div
                   style={{
                     padding: "2px 8px",
-                    margin: "16px 0 4px 0",
+                    margin: "16px 16px 4px 0px",
                     borderRadius: "6px",
                     border: "1px solid #eee",
                     color: "#ccc",
                     height: "26px",
-                    width: "34%",
                     fontSize: "15px",
                   }}
                 >
@@ -235,12 +231,11 @@ function Resume() {
                 <div
                   style={{
                     padding: "2px 8px",
-                    margin: "16px 0 4px 0",
+                    margin: "16px 16px 4px 0px",
                     borderRadius: "6px",
                     border: "1px solid #eee",
                     color: "#ccc",
                     height: "26px",
-                    width: "34%",
                     fontSize: "15px",
                   }}
                   className="btn-customer"
@@ -273,7 +268,7 @@ function Resume() {
         </div>
         <div className="row service-items border-line-v custom-row-grid">
           <div className="col col-d-6 col-t-6 col-m-12 border-line-h-resume">
-            <div className="service-item-resume">
+            <div className="service-item-resume" style={{ margin: "0 24px" }}>
               <div className="info-list-resume">
                 <ul>
                   <li>
@@ -659,7 +654,7 @@ function Resume() {
                 <br />
                 <div>
                   <div style={{ fontWeight: "bold" }}>Monitoring</div>
-                  <div>
+                  <div style={{ fontSize: "14px", color: "#a7a7a7" }}>
                     Install Prometheus And Grafana On Docker Swarm and Kuber
                     <br />
                     Install Zabbix , Prtg, OP Manager, Splunk
@@ -668,7 +663,7 @@ function Resume() {
                 <br />
                 <div>
                   <div style={{ fontWeight: "bold" }}>Microsoft</div>
-                  <div>
+                  <div style={{ fontSize: "14px", color: "#a7a7a7" }}>
                     Maintenance of Microsoft Active directory, DNS, DHCP,
                     Microsoft Internet Security and Acceleration
                     Server,Microsoft Routing and Remote Access services
@@ -679,8 +674,7 @@ function Resume() {
                 <br />
                 <div>
                   <div style={{ fontWeight: "bold" }}>Wireless Routers</div>
-
-                  <div>
+                  <div style={{ fontSize: "14px", color: "#a7a7a7" }}>
                     Config Radio Mikrotik Point To Point
                     <br />
                     Config Access Point UNIFI AC/LR Multi Vlan on Wireless

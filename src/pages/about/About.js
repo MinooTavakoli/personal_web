@@ -1,10 +1,14 @@
 import React from "react";
 import deepLearningIcon from "../../assets/icons/deep-learning-2.png";
+import linuxIcon from "../../assets/icons/linux.png";
+import systemIcon from "../../assets/icons/system.png";
+import solutionIcon from "../../assets/icons/solution.png";
+import vmwareIcon from "../../assets/icons/vmware.png";
 import "./About.css";
 
 function About() {
   return (
-    <div className="card-inner animated active" id="about-card">
+    <div dir="ltr" className="card-inner animated active" id="about-card">
       <div className="card-wrap">
         <div className="content">
           <div className="title">
@@ -65,7 +69,7 @@ function About() {
               <div className="icon">
                 <img
                   className="service-icon"
-                  src={deepLearningIcon}
+                  src={systemIcon}
                   alt="deep Learning Icon"
                 />
               </div>
@@ -75,8 +79,8 @@ function About() {
               <div className="desc-service-wrapper">
                 <div className="desc-service">
                   <p>
-                    Modern and mobile-ready website that will help you reach all
-                    of your marketing.
+                    Ensuring the highest level of availability, performance and
+                    security Analysis and engineering of computer systems
                   </p>
                 </div>
               </div>
@@ -87,7 +91,7 @@ function About() {
               <div className="icon">
                 <img
                   className="service-icon"
-                  src={deepLearningIcon}
+                  src={linuxIcon}
                   alt="deep Learning Icon"
                 />
               </div>
@@ -97,8 +101,10 @@ function About() {
               <div className="desc-service-wrapper">
                 <div className="desc-service">
                   <p>
-                    Music copying, writing, creating, transcription, arranging
-                    and composition services.
+                    Proficient in Linux stacks, Definition and implementation of
+                    best practices and standards, Design, build and maintain
+                    Linux-based services at HPC scale operating systems and
+                    applications to increase performance and reliability
                   </p>
                 </div>
               </div>
@@ -119,8 +125,8 @@ function About() {
               <div className="desc-service-wrapper">
                 <div className="desc-service">
                   <p>
-                    Advertising services include television, radio, print, mail,
-                    and web apps.
+                    Analysis of existing software for product development and
+                    Creating strategic technical vision and solutions
                   </p>
                 </div>
               </div>
@@ -131,18 +137,19 @@ function About() {
               <div className="icon">
                 <img
                   className="service-icon"
-                  src={deepLearningIcon}
+                  src={vmwareIcon}
                   alt="deep Learning Icon"
                 />
               </div>
               <div className="name">
-                <span>VMware Engnieer</span>
+                <span>VMware Engineer</span>
               </div>
               <div className="desc-service-wrapper">
                 <div className="desc-service">
                   <p>
-                    Developing memorable and unique mobile android, ios and
-                    video games.
+                    Designing and implementing VMware solutions, troubleshooting
+                    VMware environment problems. Using VMware to connect to the
+                    network and clouds
                   </p>
                 </div>
               </div>
