@@ -14,6 +14,7 @@ import "./Resume.css";
 
 function Resume() {
   return (
+    <Card>
     <div dir="ltr" className="card-inner animated active" id="about-card">
       <div className="card-wrap"></div>
       <div className="content services">
@@ -256,8 +257,9 @@ function Resume() {
         {/* <div className="line-center-service" /> */}
         <div className="content">
           <div className="title">
-            <div className="first-word-wrapper">
-              <div className="first-word">My</div> <div> Skills </div>
+            <div className="first-word-wrapper skill-custom">
+              <div>
+              <span className="first-word">My</span> Skills  </div>
               <br />
               <div style={{ fontSize: "13px", color: "#a7a7a7" }}>
                 Networking & Internetworking: (Microsoft Operating Systems -
@@ -278,11 +280,7 @@ function Resume() {
                       alt="deep Learning Icon"
                     />
                     <div
-                      style={{
-                        padding: " 0 16px",
-                        display: "flex",
-                        alignItems: "center",
-                      }}
+className="service-title"
                     >
                       Personal skills and Expertise
                     </div>
@@ -478,7 +476,7 @@ function Resume() {
           </div>
 
           <div className="col col-d-6 col-t-6 col-m-12 border-line-h-resume">
-            <div className="service-item-resume" style={{ width: "50%" }}>
+            <div className="service-item-resume customs" >
               <div className="info-list-resume">
                 <ul>
                   <li>
@@ -507,7 +505,7 @@ function Resume() {
                       <div className="name">English</div>
                       <div className="progress">
                         <div className="percentage" style={{ width: "80%" }}>
-                          <span className="da" style={{ width: "291.984px" }}>
+                          <span className="da da-custom-pr" >
                             <span></span>
                             <span></span>
                             <span></span>
@@ -538,7 +536,7 @@ function Resume() {
                       <div className="name">Persian</div>
                       <div className="progress">
                         <div className="percentage" style={{ width: "90%" }}>
-                          <span className="da" style={{ width: "291.984px" }}>
+                          <span className="da da-custom-pr" >
                             <span></span>
                             <span></span>
                             <span></span>
@@ -717,6 +715,7 @@ function Resume() {
         </a>
       </div>
     </div>
+    </Card>
   );
 }
 

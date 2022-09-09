@@ -5,9 +5,11 @@ import systemIcon from "../../assets/icons/system.png";
 import solutionIcon from "../../assets/icons/solution.png";
 import vmwareIcon from "../../assets/icons/vmware.png";
 import "./About.css";
+import { Card } from "../../components/card";
 
 function About() {
   return (
+    <Card>
     <div dir="ltr" className="card-inner animated active" id="about-card">
       <div className="card-wrap">
         <div className="content">
@@ -18,7 +20,7 @@ function About() {
           </div>
         </div>
 
-        <div className="row" style={{ position: "relative" }}>
+        <div className="row about-title-responsive">
           {/* <div className="line-center" /> */}
           <div className="col col-d-6 col-t-6 col-m-12 border-line-v ltr-section">
             <div className="text-box">
@@ -159,6 +161,7 @@ function About() {
         <div className="clear"></div>
       </div>
     </div>
+    </Card>
   );
 }
 

@@ -32,6 +32,7 @@ body {
 
 .custom-container-profile {
   position: absolute;
+  height: 88vh;
   top: 70px;
   left: 194px;
   z-index: 1;
@@ -44,4 +45,91 @@ body {
   top: 84px;
   left: 686px;
   width: 51%;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+.head-responsive{
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.custom-container-responsive{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.custom-container-page{
+  position: initial;
+  width: 62% !important;
+}
+.custom-container-profile{
+  position: initial;
+
+  justify-content: center;
+    display: flex;
+}
+
+.custom-container-head{
+  top: 1px;
+}
+
+
+}
+
+@media screen and (max-width: 1390px) {
+
+  .custom-container-page{
+    width: auto ;
+  }
+}
+
+
+@media screen and (max-width: 1042px) {
+
+  
+  .custom-container-head{
+    left: 50px;
+  }
+  
+  
+  }
+
+  @media screen and (max-width: 992px) {
+    .custom-container-page{
+      width: 72% !important;
+    }
+    .custom-container-head {
+      left: 18px !important;
+    }
+  }
+
+
+@media screen and (max-width: 786px) {
+
+  
+  .custom-container-head{
+    height: 100%;
+    position: initial;
+  }
+
+  .custom-container-head-wrapper{
+    width: 100%;
+  }
+  
+  .custom-container-page {
+
+    width: 100% !important;
+  }
+  
+  }
+
+  @media screen and (max-width: 664px) {
+
+  .custom-container-page{
+    width: 100%;
+  }
 }

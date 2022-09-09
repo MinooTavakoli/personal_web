@@ -11,7 +11,7 @@ function Profile() {
   return (
     <React.Fragment>
       <div className="card-started"> </div>
-      <Card style={{ overflow: "hidden" }}>
+      <Card style={{ overflow: "hidden" }} className="card-custom-pr">
         <Row>
           <Col>
             <div className="profile-component">
