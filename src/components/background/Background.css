@@ -380,3 +380,10 @@ nav ul li:hover {
     opacity: 0;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .background{
+  height: 100%
+}
+
+}

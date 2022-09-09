@@ -6,6 +6,7 @@ import { Col, Row } from "./components/grid";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./pages/about/About";
 import Resume from "./pages/resume/Resume";
+import Contact from './pages/contact/Contact'
 import { Card } from "./components/card";
 import "./App.css";
 
@@ -13,28 +14,28 @@ function App() {
   return (
     <Router>
       <Layout>
-        <Row dir="ltr">
-          <Col md="2">
+        <Row dir="ltr" className="head-responsive">
+          <Col md="2" className="custom-container-head-wrapper">
             <div className="custom-container-head">
               <Header />
             </div>
           </Col>
 
-          <Col md="8">
+          <Col >
             <div className="custom-container-profile">
               <Profile />
             </div>
           </Col>
 
-          <Col md="14">
+          <Col className="custom-container-responsive">
             <div className="custom-container-page">
-              <Card>
                 <Routes>
                   <Route path="/" element={<About />} />
                   <Route path="/about" element={<About />} />
                   <Route path="/resume" element={<Resume />} />
+                  <Route path="/contact" element={<Contact />} />
+
                 </Routes>
-              </Card>
             </div>
           </Col>
         </Row>

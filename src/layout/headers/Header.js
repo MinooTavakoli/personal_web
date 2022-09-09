@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import { Card } from "../../components/card";
 import { Row, Col } from "../../components/grid";
 import aboutIconActive from "../../assets/icons/man-1.png";
@@ -8,16 +9,20 @@ import resumeIconActive from "../../assets/icons/cv.png";
 import workIcon from "../../assets/icons/working-1.png";
 import blogIcon from "../../assets/icons/blog-1.png";
 import contactIcon from "../../assets/icons/contact.png";
+import contactIconActive from "../../assets/icons/contact-1.png";
 import "./Header.css";
-import { Link, useLocation } from "react-router-dom";
 
 function Header() {
   let location = useLocation();
   let path = location.pathname;
   return (
-    <Card>
+    <Card className="custom-responsive-head">
+      <div dir="ltr" className="pedram-aghaei-name"> 
+      <div >Pedram Aghaei</div>
+        <div style={{color:"#0856c1", fontWeight:"bold"}}>Network Engineer</div></div>
       <div className="sidebar-header-wrapper">
-        <ul>
+ 
+        <ul className="custom-ul-head-responsive">
           <Link to="/about" style={{ textDecoration: "none" }}>
             <li className="li-custom-head" >
               <a href="#about-card" className="link-custom">
@@ -76,7 +81,7 @@ function Header() {
               </a>
             </li>
           </Link>
-          <li className="li-custom-head">
+          {/* <li className="li-custom-head">
             <a href="#work-card" className="link-custom">
               <img
                 src={workIcon}
@@ -95,17 +100,36 @@ function Header() {
               />
               <div className="link">BLOG</div>
             </a>
-          </li>
-          <li className="li-custom-head">
-            <a href="#contact-card" className="link-custom">
-              <img
-                src={contactIcon}
-                alt="contact-me-pedram-aghaei"
-                className="person-icon"
-              />
-              <div className="link">CONTACT</div>
-            </a>
-          </li>
+          </li> */}
+
+<Link to="/contact" style={{ textDecoration: "none" }}>
+            <li className="li-custom-head">
+              <a href="#contact-card" className="link-custom">
+                {path === "/contact" ? (
+                  <img
+                    src={contactIconActive}
+                    alt="contact-pedram-aghaei"
+                    className="person-icon"
+                  />
+                ) : (
+                  <img
+                    src={contactIcon}
+                    alt="contact-pedram-aghaei"
+                    className="person-icon"
+                  />
+                )}
+                <div
+                  className="link"
+                  style={{
+                    color: path === "/contact" ? "#0D62D7" : "#323232",
+                    fontWeight: path === "/contact" ? "bold" : "400",
+                  }}
+                >
+                  CONTACT
+                </div>
+              </a>
+            </li>
+          </Link>
         </ul>
       </div>
     </Card>
