@@ -232,105 +232,97 @@
 }
 
 @media screen and (max-width: 1390px) {
-
-.card-started:after {
-  left: 184px;
-  top: 6px;
-  width: 62%;
+  .card-started:after {
+    left: 184px;
+    top: 6px;
+    width: 62%;
+  }
 }
-}
-
 
 @media screen and (max-width: 1200px) {
+  .card-custom-pr {
+    width: 60%;
+  }
 
-.card-custom-pr{
-  width: 60%;
-}
+  .profile-slide:before {
+    bottom: 55%;
+    height: 11%;
+  }
 
-.profile-slide:before {
-  bottom: 55%;
-  height: 11%;
-}
-
-.profile-slide:after {
-  bottom: 55%;
-  height: 11%;
-}
-.profile-container-wrapper{
-  width: 100%;
-}
-.title-name {
-  margin: 75px 0 0 0;
-
-}
+  .profile-slide:after {
+    bottom: 55%;
+    height: 11%;
+  }
+  .profile-container-wrapper {
+    width: 100%;
+  }
+  .title-name {
+    margin: 75px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 786px) {
-
   .card-started:after {
     left: 120px;
     top: 6px;
     width: 63%;
     height: 46%;
   }
-  .profile-container-wrapper{
+  .profile-container-wrapper {
     width: 100%;
   }
 
-.card-custom-pr{
-  width: 100% !important;
-}
-.card-started:after {
+  .card-custom-pr {
+    width: 100% !important;
+  }
+  .card-started:after {
+    left: -4px;
+    width: 95%;
+  }
+  .title-name {
+    margin: 80px 0 0 0;
+  }
 
-left: -4px;
-width: 95%;
-}
-.title-name {
-  margin: 80px 0 0 0;
-}
+  .profile-slide:before {
+    left: -4%;
+    bottom: 55%;
+    width: 60%;
+    height: 11%;
+  }
 
-.profile-slide:before {
-  left: -4%;
-  bottom: 55%;
-  width: 60%;
-  height: 11%;
-}
-
-.profile-slide:after {
-  bottom: 55%;
-  width: 60%;
-  height: 11%;
-  right: -4%;
-}
-
+  .profile-slide:after {
+    bottom: 55%;
+    width: 60%;
+    height: 11%;
+    right: -4%;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .title-name {
     margin: 42px 0 0 0 !important;
-  }  
+  }
 }
 
 @media screen and (max-width: 992px) {
+  .card-custom-pr {
+    width: 70%;
+  }
+  .title-name {
+    margin: 80px 0 0 0;
+  }
 
-.card-custom-pr{
-  width: 70% ;
-}
-.title-name {
-  margin: 80px 0 0 0;
-}
+  .profile-slide:before {
+    left: -4%;
+    bottom: 55%;
+    width: 60%;
+    height: 11%;
+  }
 
-.profile-slide:before {
-  left: -4%;
-  bottom: 55%;
-  width: 60%;
-  height: 11%;
-}
-
-.profile-slide:after {
-  bottom: 55%;
-  width: 60%;
-  height: 11%;
-  right: -4%;
-}
+  .profile-slide:after {
+    bottom: 55%;
+    width: 60%;
+    height: 11%;
+    right: -4%;
+  }
 }

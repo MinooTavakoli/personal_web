@@ -246,7 +246,7 @@ p {
 }
 
 .desc-service {
-  width: 65%;
+  width: 80%;
 }
 
 /* .border-line-v:before {
@@ -492,19 +492,18 @@ p {
 }
 
 @media screen and (max-width: 786px) {
-
   .ltr-section {
     width: 96% !important;
   }
-.rtl-section {
-  width: 96% !important;
-}
-.about-title-responsive{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-.desc-service{
-  width: 96%;
-}
+  .rtl-section {
+    width: 96% !important;
+  }
+  .about-title-responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .desc-service {
+    width: 96%;
+  }
 }

@@ -36,13 +36,18 @@ function Profile() {
                     IT Solution Architect
                   </div>
                   <div className="social-icon-wrapper">
-                    <div className="social-icon-linkedin-wrapper">
-                      <img
-                        src={linkedinIcon}
-                        alt="socail-icon-linkedin"
-                        className="social-icon-linkedin"
-                      />
-                    </div>
+                    <a
+                      href="https://www.linkedin.com/in/pedram-aghaei-36192177"
+                      target="_blank"
+                    >
+                      <div className="social-icon-linkedin-wrapper">
+                        <img
+                          src={linkedinIcon}
+                          alt="socail-icon-linkedin"
+                          className="social-icon-linkedin"
+                        />
+                      </div>
+                    </a>
                     <div className="social-icon-github-wrapper">
                       <img
                         src={githubIcon}
@@ -50,14 +55,15 @@ function Profile() {
                         className="social-icon-github"
                       />
                     </div>
-
-                    <div className="social-icon-telegram-wrapper">
-                      <img
-                        src={telegramIcon}
-                        alt="social-icon-telegram"
-                        className="social-icon-telegram"
-                      />
-                    </div>
+                    <a href="https://t.me/Pedramaghaii" target="_blank">
+                      <div className="social-icon-telegram-wrapper">
+                        <img
+                          src={telegramIcon}
+                          alt="social-icon-telegram"
+                          className="social-icon-telegram"
+                        />
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -70,3 +76,5 @@ function Profile() {
 }
 
 export default Profile;
+
+// https://www.linkedin.com/in/pedram-aghaei-36192177

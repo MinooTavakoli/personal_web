@@ -10,6 +10,7 @@ import workIcon from "../../assets/icons/working-1.png";
 import blogIcon from "../../assets/icons/blog-1.png";
 import contactIcon from "../../assets/icons/contact.png";
 import contactIconActive from "../../assets/icons/contact-1.png";
+import logo from "../../assets/images/logoP.png";
 import "./Header.css";
 
 function Header() {
@@ -17,14 +18,19 @@ function Header() {
   let path = location.pathname;
   return (
     <Card className="custom-responsive-head">
-      <div dir="ltr" className="pedram-aghaei-name"> 
-      <div >Pedram Aghaei</div>
-        <div style={{color:"#0856c1", fontWeight:"bold"}}>Network Engineer</div></div>
+      <div dir="ltr" className="pedram-aghaei-name">
+        <img style={{ width: "44px" }} src={logo} alt="logo-pedram-aghaei" />
+        <div style={{ flexDirection: "column", padding: "0 4px" }}>
+          <div>Pedram Aghaei</div>
+          <div style={{ color: "#0856c1", fontWeight: "bold" }}>
+            Network Engineer
+          </div>
+        </div>
+      </div>
       <div className="sidebar-header-wrapper">
- 
         <ul className="custom-ul-head-responsive">
           <Link to="/about" style={{ textDecoration: "none" }}>
-            <li className="li-custom-head" >
+            <li className="li-custom-head">
               <a href="#about-card" className="link-custom">
                 {path === "/about" ? (
                   <img
@@ -102,7 +108,7 @@ function Header() {
             </a>
           </li> */}
 
-<Link to="/contact" style={{ textDecoration: "none" }}>
+          <Link to="/contact" style={{ textDecoration: "none" }}>
             <li className="li-custom-head">
               <a href="#contact-card" className="link-custom">
                 {path === "/contact" ? (
