@@ -151,6 +151,13 @@ ul li a:before {
     display: flex;
     padding: 0px 0 10px 24px;
   }
+  .custom-responsive-head {
+    position: fixed;
+    height: auto;
+    z-index: 1055;
+    top: 0px;
+    background: #fff;
+  }
 }
 
 @media screen and (min-width: 786px) {
