@@ -35,14 +35,6 @@ function AnimationExample() {
 }
 
 function App() {
-  // const location = useLocation();
-  // const [displayLocation, setDisplayLocation] = useState(location);
-  // const [transitionStage, setTransistionStage] = useState("fadeIn");
-
-  // useEffect(() => {
-  //   if (location !== displayLocation) setTransistionStage("fadeOut");
-  // }, [location]);
-
   return (
     <Router>
       <Layout>
@@ -52,32 +44,19 @@ function App() {
               <Header />
             </div>
           </Col>
-
           <Col>
             <div className="custom-container-profile">
               <Profile />
             </div>
           </Col>
-
           <Col className="custom-container-responsive">
             <div className="custom-container-page">
-              <div
-                // className={`${transitionStage}`}
-                // onAnimationEnd={() => {
-                //   if (transitionStage === "fadeOut") {
-                //     setTransistionStage("fadeIn");
-                //     setDisplayLocation(location);
-                //   }
-                // }}
-              >
-
-                <Routes>
-                  <Route path="/" element={<About />} />
-                  <Route path="/about" element={<About />} />
-                  <Route path="/resume" element={<Resume />} />
-                  <Route path="/contact" element={<Contact />} />
-                </Routes>
-              </div>
+              <Routes>
+                <Route path="/" element={<About />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/resume" element={<Resume />} />
+                <Route path="/contact" element={<Contact />} />
+              </Routes>
             </div>
           </Col>
         </Row>

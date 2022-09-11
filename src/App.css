@@ -235,6 +235,9 @@ button {
   .custom-container-page {
     width: 100% !important;
   }
+  .custom-container-profile {
+    margin-top: 116px;
+  }
 }
 
 @media screen and (max-width: 664px) {
