@@ -47,6 +47,102 @@ body {
   width: 51%;
 }
 
+.page-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.teest {
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition: 2s;
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.card-inner.hidden {
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9;
+}
+
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 450ms linear 250ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}
+
+.modal {
+  max-width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  background-color: whitesmoke;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -250px;
+  transition: top 0.5s ease-out;
+  z-index: 1;
+}
+.modal-header {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.btn-box {
+  text-align: center;
+}
+button {
+  padding: 10px;
+}
+
 .fadeIn {
   animation: 0.5s fadeIn forwards;
 }
