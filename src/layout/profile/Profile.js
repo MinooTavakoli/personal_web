@@ -18,11 +18,11 @@ function Profile() {
               <div className="profile-slide">
                 <div className="profile-container-wrapper">
                   <div className="profile-image-wrapper">
-                    {/* <img
+                    <img
                       src={profileImage}
                       alt="profile-pedram-aghaii"
                       className="profile-image"
-                    /> */}
+                    />
                   </div>
                 </div>
               </div>
