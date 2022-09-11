@@ -18,11 +18,11 @@ function Profile() {
               <div className="profile-slide">
                 <div className="profile-container-wrapper">
                   <div className="profile-image-wrapper">
-                    <img
+                    {/* <img
                       src={profileImage}
                       alt="profile-pedram-aghaii"
                       className="profile-image"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
@@ -31,7 +31,6 @@ function Profile() {
                   <div className="title-name">Pedram Aghaei</div>
                   <div className="title-job">Infrastructure Team Lead</div>
                   <div dir="ltr" className="profile-info-description">
-                    Infrustructure Team Lead <br />
                     Senior Systems and VMware Engineer <br />
                     IT Solution Architect
                   </div>

@@ -66,6 +66,9 @@ function Resume() {
                     <span>2018 July - Present</span>
                   </div>
                   <div className="desc-service-resume">
+                    <p style={{ fontWeight: "bold" }}>
+                      Senior Network Engineer at Tosan Techno
+                    </p>
                     <p>
                       Led the VMware virtualization and Datacenter and Mange
                       servers branches <br />
@@ -120,9 +123,9 @@ function Resume() {
                     <span>April 2016 – July 2018</span>
                   </div>
                   <div className="desc-service-resume">
-                    <p>
+                    <p style={{ fontWeight: "bold" }}>
                       IT Manager & Information technology consulting at Behnam
-                      Charity Org Install
+                      Charity Organization
                     </p>
                   </div>
                 </div>
@@ -146,11 +149,38 @@ function Resume() {
                     <span>April 2014 – April 2016</span>
                   </div>
                   <div className="desc-service-resume">
+                    <p style={{ fontWeight: "bold" }}>
+                      IT Manager at Derakhte Sabz Company
+                    </p>
                     <p>
-                      IT Manager at Derakhte Sabz Company <br />
                       Installed and configure HP servers <br />
-                      April 2012 – April 2014 <br />
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  className="desc-service-wrapper-resume"
+                  style={{ position: "relative" }}
+                >
+                  <div
+                    style={{
+                      padding: "2px 8px",
+                      margin: "16px 16px 4px 0px",
+                      borderRadius: "6px",
+                      border: "1px solid #eee",
+                      color: "#ccc",
+                      height: "26px",
+                      fontSize: "15px",
+                    }}
+                    className="btn-customer"
+                  >
+                    <span>April 2012 – April 2014</span>
+                  </div>
+                  <div className="desc-service-resume">
+                    <p style={{ fontWeight: "bold" }}>
                       TECHNICAL SUPPORT ENGINEER at TikoNet Company <br />
+                    </p>
+                    <p>
                       VMware Specialist | Storage Specialist | Instructor <br />
                     </p>
                   </div>
@@ -366,7 +396,7 @@ function Resume() {
                       <li>
                         <div className="name">
                           Linux Advanced Routing (iproute2, L7-filter, tc,
-                          Netfilter, Zebra){" "}
+                          Netfilter, Zebra)
                         </div>
                         <div className="progress">
                           <div
