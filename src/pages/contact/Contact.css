@@ -93,19 +93,28 @@
   .contact-wrapper {
     padding: 0;
   }
-  .info-list-contact ul li {
-    font-size: 11px;
-  }
   .contact-btn {
     width: 100%;
     margin: 0;
   }
-
   .contact-wrapper {
     grid-template-columns: 1fr;
     grid-template-areas: "input1 input1" "input2 input2" "textarea1 textarea1";
   }
-  .contact-email{
+  .contact-email {
     padding: 24px 0 0 0;
   }
 }
+
+/* @media screen and (max-width: 394px) {
+  .info-list-contact ul li {
+    font-size: 11px;
+  }
+} */
+
+@media screen and (max-width: 415px) {
+  .info-list-contact ul li {
+    font-size: 11px;
+  }
+}
+

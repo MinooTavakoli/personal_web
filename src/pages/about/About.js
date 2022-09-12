@@ -93,6 +93,28 @@ function About() {
                 <div className="icon">
                   <img
                     className="service-icon"
+                    src={deepLearningIcon}
+                    alt="deep Learning Icon"
+                  />
+                </div>
+                <div className="name">
+                  <span>IT Solution Architect</span>
+                </div>
+                <div className="desc-service-wrapper">
+                  <div className="desc-service">
+                    <p>
+                      Analysis of existing software for product development and
+                      Creating strategic technical vision and solutions
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
+              <div className="service-item">
+                <div className="icon">
+                  <img
+                    className="service-icon"
                     src={linuxIcon}
                     alt="deep Learning Icon"
                   />
@@ -113,28 +135,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
-              <div className="service-item">
-                <div className="icon">
-                  <img
-                    className="service-icon"
-                    src={deepLearningIcon}
-                    alt="deep Learning Icon"
-                  />
-                </div>
-                <div className="name">
-                  <span>IT Solution Architect</span>
-                </div>
-                <div className="desc-service-wrapper">
-                  <div className="desc-service">
-                    <p>
-                      Analysis of existing software for product development and
-                      Creating strategic technical vision and solutions
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+
             <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
               <div className="service-item">
                 <div className="icon">

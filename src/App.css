@@ -203,7 +203,43 @@ button {
 
 @media screen and (max-width: 1390px) {
   .custom-container-page {
-    width: 46%;
+    width: 39%;
+  }
+}
+
+@media screen and (max-width: 1388px) {
+  .custom-container-page {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1337px) {
+  .custom-container-page {
+    width: 41%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .custom-container-page {
+    width: 42%;
+  }
+}
+
+@media screen and (max-width: 1273px) {
+  .custom-container-page {
+    width: 43%;
+  }
+}
+
+@media screen and (max-width: 1243px) {
+  .custom-container-page {
+    width: 43%;
+  }
+}
+
+@media screen and (max-width: 1238px) {
+  .custom-container-page {
+    width: 39%;
   }
 }
 

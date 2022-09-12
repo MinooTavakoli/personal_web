@@ -157,6 +157,7 @@ ul li a:before {
     z-index: 1055;
     top: 0px;
     background: #fff;
+    box-shadow: 0 0 8px rgb(70 57 57 / 70%);
   }
 }
 

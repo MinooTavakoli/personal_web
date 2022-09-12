@@ -235,7 +235,7 @@
 p {
   padding: 0;
   line-height: 1.8em;
-  margin: 8px 0 25px 0;
+  /* margin: 8px 0 25px 0; */
   font-size: 16px;
   color: #626262;
 }
@@ -505,5 +505,26 @@ p {
   }
   .desc-service {
     width: 96%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .info-list ul li strong {
+    width: 86px;
+  }
+  .info-list ul li {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 337px) {
+  .info-list ul li strong {
+    width: 74px;
+  }
+}
+
+@media screen and (max-width: 324px) {
+  .info-list ul li strong {
+    width: 64px;
   }
 }
