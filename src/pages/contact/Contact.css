@@ -46,6 +46,7 @@
   resize: none;
   width: 100%;
   border-radius: 6px;
+  font-family: Poppins;
 }
 
 .contact-textarea {
@@ -58,6 +59,7 @@
   width: 100%;
   min-height: 120px;
   border-radius: 6px;
+  font-family: Poppins;
 }
 
 .contact-name {
@@ -77,6 +79,7 @@
 }
 
 .contact-btn {
+  font-family: Poppins;
   padding: 8px;
   border: none;
   outline: none;

@@ -1425,6 +1425,12 @@ textarea:focus {
   }
 }
 
+@media screen and (max-width: 1390px) {
+  .skills-list.circles ul li {
+    width: 51%;
+  }
+}
+
 @media screen and (max-width: 1330px) {
   .service-title {
     font-size: 13px;
@@ -1432,6 +1438,9 @@ textarea:focus {
 }
 
 @media screen and (max-width: 786px) {
+  .skills-list.circles ul li {
+    width: 47%;
+  }
   .custom-row-grid {
     display: flex;
     flex-direction: column;

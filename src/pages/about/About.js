@@ -25,7 +25,7 @@ function About() {
             <div className="col col-d-6 col-t-6 col-m-12 border-line-v ltr-section">
               <div className="text-box">
                 <p>
-                  I am Pedram Aghaei, Infrastructure Team Lead from IRAN,
+                  I am Pedram Aghaei, Infrastructure Team Lead and Senior Systems and VMware Engineer from IRAN,
                   Tehran. I have rich experience in Network and building and
                   customization, also I am good at Datacenter. I love to talk
                   with you about our unique.
