@@ -47,13 +47,15 @@ function Profile() {
                         />
                       </div>
                     </a>
-                    <div className="social-icon-github-wrapper">
-                      <img
-                        src={githubIcon}
-                        alt="social-icon-github"
-                        className="social-icon-github"
-                      />
-                    </div>
+                    <a href="https://github.com/pedramaghaii" target="_blank">
+                      <div className="social-icon-github-wrapper">
+                        <img
+                          src={githubIcon}
+                          alt="social-icon-github"
+                          className="social-icon-github"
+                        />
+                      </div>
+                    </a>
                     <a href="https://t.me/Pedramaghaii" target="_blank">
                       <div className="social-icon-telegram-wrapper">
                         <img
